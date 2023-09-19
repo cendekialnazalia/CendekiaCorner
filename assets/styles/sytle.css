@@ -1,30 +1,254 @@
-body {
-  font-family: "Poppins", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
   margin: 0;
-  padding: 0;
+
+  display: flex;
+  flex-direction: column;
   background-color: #161823;
 }
 
-nav a {
-  font-size: 20px;
+header .navbar-container {
+  max-width: 1500px;
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
-  font-weight: 400;
-  text-decoration: none;
-
-  color: white;
+  padding-block: 1rem;
+  z-index: 999;
 }
 
-nav a:hover {
-  font-weight: bold;
+header .navbar-container .nav-list .logo img {
+  width: 40px;
 }
 
-nav li {
-  display: inline;
+header .navbar-container .nav-list ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem 1rem;
+}
+
+header .navbar-container .nav-list li {
   list-style-type: none;
-  margin-right: 30px;
+  margin-top: 15px;
 }
 
-nav {
-  padding: 5px;
+header .navbar-container .nav-list li a {
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: whitesmoke;
+  padding: 0.5rem;
+  border-radius: 999px;
+  transition: all 0.2s ease-in-out;
+}
+
+header .navbar-container .nav-list li:hover a {
+  color: #ef7965;
+}
+
+.btn-contact {
+  padding: 0.8rem 2.5rem;
+  margin-block-start: 1rem;
+  height: 55px;
+  width: 240px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Poopins", sans-serif;
+  color: white;
+
+  border: 3px solid transparent;
+  border-radius: 30px;
+  background-color: #ef7965;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.btn-contact:hover {
+  border: 3px solid #ef7965;
+  color: whitesmoke;
+  background-color: transparent;
+}
+
+.navbar-container .shape {
+  width: 800px;
+  height: 700px;
+  background-color: #212330;
+  border-bottom-left-radius: 120px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -9999;
+}
+
+header .line {
+  width: 1100px;
+  height: 1px;
+  background-color: #494c5d;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* CSS main  */
+main {
+  max-width: 1200px;
+  width: 100%;
+  margin-inline: auto;
+  padding: 0rem 4rem;
+  flex: none;
+
+  display: flex;
+  align-items: center;
+}
+
+main .content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+main .content .content-description {
+  flex: 1 1;
+}
+
+main .content .content-description .section-satu {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+main .content .content-description .section-satu h1.title {
+  width: 521px;
+  color: whitesmoke;
+  font-family: "Poopins", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+main .content .content-description .section-satu .sub-title {
+  width: 404px;
+  color: whitesmoke;
+  font-family: "Poopins", sans-serif;
+  font-weight: 100;
+  padding: 1px;
+  font-size: 20px;
+}
+
+.btn-collab {
+  padding: 0.8rem 2.5rem;
+  margin-block-start: 1rem;
+  height: 55px;
+  width: 240px;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Poopins", sans-serif;
+  color: white;
+
+  border: 3px solid transparent;
+  border-radius: 30px;
+  background-color: #ef7965;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.btn-collab:hover {
+  border: 3px solid #ef7965;
+  color: whitesmoke;
+  background-color: transparent;
+}
+
+.img-satu {
+  width: 500px;
+}
+
+main .content .content-description .section-dua {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+main .content .content-description .section-dua h1.title {
+  color: whitesmoke;
+  font-family: "Poopins", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+}
+
+main .content .content-description .section-dua p.sub-title {
+  color: whitesmoke;
+  font-family: "Poopins", sans-serif;
+  font-weight: 100;
+  /* padding: 1px; */
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+main .content .content-description .section-dua .biodata {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+main .content .content-description .section-dua .biodata h1.title {
+  color: whitesmoke;
+  font-family: "Poopins", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: end;
+}
+
+main .content .content-description .section-dua .biodata p.sub-title {
+  color: whitesmoke;
+  font-family: "Poopins", sans-serif;
+  font-weight: 100;
+  /* padding: 1px; */
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: end;
+}
+
+main
+  .content
+  .content-description
+  .section-dua
+  .biodata
+  .detail-biodata
+  .portofolio {
+  /* ini harus diperbaiki */
+  margin-left: 200px;
+}
+
+main
+  .content
+  .content-description
+  .section-dua
+  .biodata
+  .detail-biodata
+  .portofolio
+  img {
+  margin-left: 20px;
 }
