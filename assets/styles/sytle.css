@@ -182,6 +182,7 @@ main .content .content-description .section-satu .sub-title {
   width: 500px;
 }
 
+/* Section 2 */
 main .content .content-description .section-dua {
   margin-top: 200px;
   display: flex;
@@ -202,7 +203,7 @@ main .content .content-description .section-dua p.sub-title {
   font-weight: 100;
   /* padding: 1px; */
   font-size: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -251,4 +252,241 @@ main
   .portofolio
   img {
   margin-left: 20px;
+}
+
+/* Section 3 */
+main .content .content-description .section-tiga {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+main .content .content-description .section-tiga h1.title {
+  color: whitesmoke;
+  font-family: "Poopins", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+}
+
+main .content .content-description .section-tiga p.sub-title {
+  color: whitesmoke;
+  font-family: "Poopins", sans-serif;
+  font-weight: 100;
+  /* padding: 1px; */
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+main .content .content-description .section-tiga .card-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+main .content .content-description .section-tiga .card-group .card {
+  width: 443px;
+  height: 353px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-right: 30px;
+}
+
+main .content .content-description .section-tiga .card-group .card .main-img {
+  width: 403px;
+  height: 226px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+main
+  .content
+  .content-description
+  .section-tiga
+  .card-group
+  .card
+  .ratecard-data {
+  width: 403px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+main
+  .content
+  .content-description
+  .section-tiga
+  .card-group
+  .card
+  .ratecard-data
+  p.product {
+  color: #3d3d3d;
+  font-family: "Poopins", sans-serif;
+  height: 3px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+main
+  .content
+  .content-description
+  .section-tiga
+  .card-group
+  .card
+  .ratecard-data
+  .detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+main .content .content-description .section-tiga .card-group .card .rating {
+  width: 25px;
+  height: 25px;
+}
+
+main
+  .content
+  .content-description
+  .section-tiga
+  .card-group
+  .card
+  .ratecard-data
+  .detail
+  .rating-number {
+  color: #7a7778;
+  font-family: "Poopins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+main
+  .content
+  .content-description
+  .section-tiga
+  .card-group
+  .card
+  .ratecard-data
+  .detail
+  .client {
+  color: #7a7778;
+  font-family: "Poopins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+main
+  .content
+  .content-description
+  .section-tiga
+  .card-group
+  .card
+  .ratecard-data
+  .detail
+  .price {
+  color: #02264a;
+  font-family: "Poopins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 153px;
+}
+
+/* Section 4 */
+main .content .content-description .section-empat {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+main .content .content-description .section-empat h1.title {
+  color: whitesmoke;
+  font-family: "Poopins", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+}
+
+main .content .content-description .section-empat p.sub-title {
+  color: whitesmoke;
+  font-family: "Poopins", sans-serif;
+  font-weight: 100;
+  /* padding: 1px; */
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+main .content .content-description .section-empat .biodata {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+main .content .content-description .section-empat .biodata p.sub-title {
+  color: whitesmoke;
+  font-family: "Poopins", sans-serif;
+  font-weight: 100;
+  /* padding: 1px; */
+  font-size: 32px;
+  margin-top: 20px;
+  text-align: start;
+}
+
+main .content .content-description .section-empat .biodata p.name {
+  color: whitesmoke;
+  font-family: "Poopins", sans-serif;
+  font-weight: 100;
+  /* padding: 1px; */
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: start;
+}
+
+main .content .content-description .section-empat .biodata p.roles {
+  color: #b5b5b5;
+  font-family: "Poopins", sans-serif;
+  font-weight: 100;
+  /* padding: 1px; */
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: start;
+}
+
+/* Section 5 */
+footer .card {
+  width: 100%;
+  height: 185px;
+  background-color: #212330;
+  margin-top: 100px;
+  border-top-left-radius: 100px;
+}
+
+footer .card .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer .card .social-media img {
+  margin-top: 55px;
+  margin-left: 20px;
+  height: 28px;
+}
+
+footer .card p {
+  color: #ffffff;
+  font-family: "Poopins", sans-serif;
+  font-weight: 100;
+  /* padding: 1px; */
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
 }
